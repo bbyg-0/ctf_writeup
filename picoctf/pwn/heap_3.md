@@ -130,3 +130,22 @@ Kita free alamat x, alokasikan memori dengan size 35, isi nilai x dengan karakte
 ```
 Aa0Bb1Cc2Dd3Ee4Ff5Gg6Hh7Ii8Jj9pico
 ```
+
+```
+gef➤  heap chunks
+Chunk(addr=0x405010, size=0x410, flags=PREV_INUSE | IS_MMAPPED | NON_MAIN_ARENA)
+    [0x0000000000405010     45 6e 74 65 72 20 79 6f 75 72 20 63 68 6f 69 63    Enter your choic]
+Chunk(addr=0x405420, size=0x30, flags=PREV_INUSE | IS_MMAPPED | NON_MAIN_ARENA)
+    [0x0000000000405420     41 61 30 42 62 31 43 63 32 44 64 33 45 65 34 46    Aa0Bb1Cc2Dd3Ee4F]
+Chunk(addr=0x405450, size=0x410, flags=PREV_INUSE | IS_MMAPPED | NON_MAIN_ARENA)
+    [0x0000000000405450     41 61 30 42 62 31 43 63 32 44 64 33 45 65 34 46    Aa0Bb1Cc2Dd3Ee4F]
+Chunk(addr=0x405860, size=0x300, flags=PREV_INUSE | IS_MMAPPED | NON_MAIN_ARENA)
+    [0x0000000000405860     10 00 10 00 10 00 10 00 10 00 10 00 10 00 10 00    ................]
+Chunk(addr=0x405b60, size=0x204b0, flags=PREV_INUSE | IS_MMAPPED | NON_MAIN_ARENA)
+    [0x0000000000405b60     00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................]
+gef➤  hexdump byte 0x405420 --size 48
+0x0000000000405420     41 61 30 42 62 31 43 63 32 44 64 33 45 65 34 46    Aa0Bb1Cc2Dd3Ee4F
+0x0000000000405430     66 35 47 67 36 48 68 37 49 69 38 4a 6a 39 70 69    f5Gg6Hh7Ii8Jj9pi
+0x0000000000405440     63 6f 00 00 00 00 00 00 11 04 00 00 00 00 00 00    co..............
+
+```
