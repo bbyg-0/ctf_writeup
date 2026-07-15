@@ -1,5 +1,5 @@
 # buffer overflow 1
-## Probset
+## Problem
 ```
 #include <stdio.h>
 #include <stdlib.h>

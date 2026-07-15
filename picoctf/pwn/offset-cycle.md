@@ -1,5 +1,5 @@
 # offset-cycle
-## Probset
+## Problem
 Suatu executeable yang hanya bisa dieksekusi di remote. Meminta untuk dioverflow eip nya untuk ke win. Akan tetapi, setiap 2 menit buff sizenya akan berbeda.
 ## Solusi
 Mau buff sizenya berapapun, jarak antara buff size dengan offset ialah 12, sehingga, jika buffnya 200 maka offset 212, jika buff size 150 maka offset 162, etc.\

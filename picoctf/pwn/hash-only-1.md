@@ -1,5 +1,5 @@
 # hash-only-1
-## probset
+## problem
 Program memiliki previllage yang cukup untuk mengambil flag di /root/flag.txt, setelah itu program akan mengeluarkan hasil hash menggunakan md dari isi flag tersebut
 ## diketahui
 * Program menggunakan program lain berupa md5 tanpa melalui absolut path, dengan bukti:

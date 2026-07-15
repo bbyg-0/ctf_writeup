@@ -1,5 +1,5 @@
 # Heap 1
-## Probset
+## Problem
 ```
 Welcome to heap1!
 I put my data on the heap so it should be safe from any tampering.

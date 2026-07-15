@@ -1,5 +1,5 @@
 # Input Injection 1
-## probset
+## problem
 ```
 gef➤  disas main
 Dump of assembler code for function main:

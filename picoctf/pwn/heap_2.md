@@ -1,5 +1,5 @@
 # Heap 2
-## Probset
+## Problem
 ```
 #include <stdio.h>
 #include <stdlib.h>

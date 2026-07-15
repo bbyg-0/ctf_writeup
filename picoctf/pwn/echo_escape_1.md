@@ -1,6 +1,6 @@
 # Echo Escape 1
 
-## Probset
+## Problem
 ```
 #include <stdio.h>
 #include <unistd.h>

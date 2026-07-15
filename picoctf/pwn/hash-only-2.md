@@ -1,5 +1,5 @@
 # hash-only-2
-## Probset
+## Problem
 Sama seperti dengan hash-only-1 akan tetapi memiliki restriksi tambahan, yaitu: 
 * Tidak bisa redirect output 
 * Tidak bisa mengubah file PATH

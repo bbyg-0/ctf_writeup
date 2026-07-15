@@ -1,5 +1,5 @@
 # Format-string-1
-## Probset
+## Problem
 ```
 #include <stdio.h>
 
