@@ -1,4 +1,4 @@
-# Format-string-3
+# Format-string-2
 ## Problem
 ```
 #include <stdio.h>
