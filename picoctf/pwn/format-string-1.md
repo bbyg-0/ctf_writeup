@@ -51,14 +51,14 @@ int main() {
 Terdapat beberapa hal yang diketahui dan harus diketahui, yaitu:
 * Di dalam main terdapat empat string yang dialokasikan, sehingga stack akan memiliki anatomi sebagai berikut:
 
-| STACK |
-| :---: |
-| Return Address  |
-| Saved RBP  |
-| secret2[64]  |
-| flag[64]  |
-| secret1[64]  |
-| buff[1024]  |
+| STACK | STACK |
+| :---: | :---: |
+| RBP + 8| Return Address  |
+| RBP  | Saved RBP  |
+| RBP - 8 | secret2[64]  |
+| RBP - 16 | flag[64]  |
+| RBP - 24 | secret1[64]  |
+| RBP - 32 | buff[1024]  |
 
 * Terdapat printf(buf) sehingga kita bisa eksploitasi format-string, dengan menginput %p terus menerus, adapun urutan pengambilan data sebagai berikut (64-bit)
 
